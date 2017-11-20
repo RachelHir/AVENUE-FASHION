@@ -1,0 +1,602 @@
+
+
+
+html
+
+{
+    
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    
+}
+body
+{
+   
+    margin-left: 0px ;
+    margin-right: 0px;
+    margin-top: 0px; 
+    margin-bottom: 0px;
+    padding: 0px;
+    height: 100%;
+    display: block;
+    overflow: visible;
+  
+}
+
+.head{ 
+
+    height:42px;
+}
+.general{
+    position:absolute;
+    background-color:  #333333;
+    width: 1349px;
+    height: 42px;
+    margin-left: 0px ;
+    margin-right: 0px;
+    margin-top: 0px; 
+    margin-bottom:0px;
+    padding:1px 0px 1px 0px;
+ 
+}
+
+.general ul{
+    margin-bottom: 0%;
+}
+ 
+ li {
+     display: inline 
+
+ }   
+
+ .Currency a
+ {
+    font-family:Montserrat;
+    color:  #777777;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: left;
+    text-decoration:none;
+    padding-right:35%;
+    padding-left: 15%;
+
+    } 
+
+.register a
+{
+    font-family: Montserrat;
+    color:  #999999;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: right;
+    text-decoration:none;
+    padding-left: 70px;
+    padding-right: 10px;
+
+}
+.sign a
+{
+    font-family: Montserrat;
+    color:  #999999;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: right;
+    text-decoration:none;
+    padding: 20px;
+}
+ 
+.cart { 
+
+    background-color: #00c8c8;
+    width: 147px;
+    height: 43px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 13px;
+    text-decoration:none;
+    text-align: center;
+    padding: 20px 15px 10px 20px;
+}
+
+.cart a { 
+
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 13px;
+    text-decoration:none;
+    text-align: center;
+    margin: 20px;
+
+}
+
+.upnav { 
+    
+    background-color: #f8f8f8;
+    width: 1349px;
+    height: 100px;
+    margin: 0 auto ;
+    padding-top: 0%;
+}
+
+main section h1 {  
+
+    display: inline-flex;
+    font-family: sans-serif;
+    color: #222222;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 3%;
+    padding-left:20px;
+    width: 150px;
+}
+
+
+.menu{
+
+    width: 600px;
+    float: right; 
+    margin-right: 5%;  
+    
+
+}
+.menu a  {
+    
+    font-family: sans-serif;
+    color:  #575153;
+    font-size: 10px;
+    text-align: left;
+    font-weight: bold;
+    float:left;
+    position: relative; 
+    padding: 0% 3.5% 0% 3%;
+    text-decoration: none;
+    margin-top: 7%;
+
+   
+    
+}
+
+.tabhead:hover {
+
+     color:  #00c8c8;
+ }
+
+ #current{
+
+     color:  #00c8c8;
+ }
+
+
+.tabhead input {
+    position: absolute;
+    margin-top:-10%;
+    margin-left: 30px;
+    width: 100px;
+    height: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    
+
+}
+
+.tabhead button {
+    position:absolute;
+    margin-top: 1%;
+    margin-left:125px;
+    background-color: white;
+    float: right;
+    border:none;
+    background-color: white;
+    
+}
+
+
+
+.manshop{
+
+    
+    position: absolute;
+    float: right;
+    margin: 32% 10% 5% 65%;
+    border: 2px solid  #737373;
+    width: 200px;
+    font-family: sans-serif;
+    color:  #454647;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding:10px 3px 10px 3px;
+    font-weight: bold;
+
+}
+
+
+.man-drop{
+     background-color:  #f8f8f8;
+     width: 0px;
+     height: 0px;
+     line-height: 18px;
+     border:2px ;
+     box-shadow: 8px 15px 24px 0px rgba(0, 0, 0, 0.14); 
+     opacity: 0;
+
+}
+
+.casual-formal{
+
+    display: inline-flex;
+
+}
+
+.casual,.formal{
+
+    font-family:sans-serif;
+    color:  #727272;
+    width: 140px;
+    font-size: 15px;  
+    line-height: 18px; 
+    padding-left:25px; 
+    margin-top: 5%;
+    
+
+}
+
+.casual ul ,.formal ul{
+     padding-left:0px; 
+     
+}
+
+.casual li, .formal li{
+     font-size: 11px;
+     line-height: 20px;
+
+}
+
+.autumn{
+
+    color: white;
+    background-color: black;
+    background-color:  #333333;
+    width: 80%;
+    height: 90px;
+    font-family: sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    padding: 20px 15px 5px 15px; 
+    margin-left:5%;
+}
+
+
+#hope:nth-child(1):hover .man-drop{
+    opacity: 1;
+    height: 320px;
+    width: 350px;
+    position: absolute;
+}
+
+
+.intro{
+    width: 1349px;
+    height:300px;
+      
+}
+
+
+.second-stores{
+
+    margin: 0 auto ;
+    width: 1349px;
+    height: 200px;
+    
+
+}
+
+
+.stores{
+  
+    margin: 0 auto ;
+    width:740px;
+    height: 400px;
+    margin-top:2%;
+
+}
+.countrystore{
+    
+    float: left;
+    margin: 0 auto ;
+    width: 233px;
+    height: 200px;
+    padding: 6px;
+  
+    
+}
+.countrystore h3{
+    
+    font-family: sans-serif;
+    color:  #575153;
+    font-size: 13px;
+    line-height: 12px;
+    text-align: left;
+    
+    }
+    
+.adress{
+    
+    font-family:  sans-serif;
+    color:  #727272;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: left;
+        
+}
+.countrystore button{
+    position: relative;
+    float:left;
+    font-family:sans-serif;
+    color:  #454647;
+    font-size: 13px;
+    background-color:  #eeeeee;
+    text-align: center;
+    padding:8px 27px;
+    border: 1.5px ridge #737373;;
+    margin-left: 0%;
+    margin-top:10%;
+    
+
+}
+
+.countrystore:hover button{
+    
+    background-color: #00c8c8;
+    color: white;
+    border: 2px solid #00c8c8;
+    margin-left: 0%;
+    padding:8px 27px;
+    }
+    
+.store-exp{
+
+    font-family: sans-serif;
+    color:    #8e8c8c;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: left;
+
+}
+
+.country-details{
+
+    margin: 0 auto ;
+   width: 1349px;
+    height: 350px;
+    
+
+}
+
+.london-details{
+
+   width: 1349px;
+    height: 300px;
+    margin-bottom:2%;
+    margin-top: 3%;
+    background-color:  #f8f8f8;
+    
+
+}
+
+.map-london{
+    float: left;
+    height: 350px;
+    width: 67%;
+    
+    
+}
+
+.map-london img{
+    height: 300px;
+   width: 1349px;
+    float:left;
+
+
+
+}
+.adress-london{
+
+    float: right;
+    width: 32%;
+    font-family: sans-serif;
+    color:  #575153;
+    font-size: 13px;
+    line-height: 12px;
+    text-align: left;
+    
+}   
+
+.moredetails{
+    font-family: sans-serif;
+    color:    #8e8c8c;
+    font-size: 10px;
+    line-height: 20px;
+    text-align: left;
+    margin-top: 5%;
+    
+}
+
+
+
+.symbol-gray i {
+
+    border-radius: 50%;
+    background-color:  #727272;
+    width: 15px;
+    height: 15px;
+    color:  #ffffff;
+    text-align: center;
+    margin:5% 0.5% 0% 0.5%;
+    padding: 5px 3px 2px 3px;
+
+}
+    
+
+
+.four{
+    
+    background-color:  #f8f8f8;
+    width: 1349px;
+    height: 350px;
+    
+    
+}
+
+.footermenu {
+    
+    width:60%; 
+    margin-left:20%; 
+    margin-right:20%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    text-align: left; 
+    
+}
+
+.information{
+    
+    margin-top: 0px;
+    margin-right: 25px;
+    width: 14%;
+    
+}
+
+.information ul{
+    padding: 0px;
+    margin-bottom: 50px;
+    
+}
+
+
+.information li { 
+   
+    font-family: sans-serif;
+    color:  #575153;
+    font-size: 10px;
+    display: inline-block;
+    text-align: left;
+    
+}
+
+h5{
+    
+    font-family: sans-serif;
+    color:  #575153;
+    font-size:10px;
+    display: inline-flex;
+    text-align: left;
+    margin-bottom: 0px; 
+    padding-right: 10px;
+  
+}
+
+.boxfooter{
+
+    background-color:  #f8f8f8;
+    width:60%; 
+    margin-left:20%; 
+    margin-right:20%; 
+    display: inline-flex;
+    justify-content: space-evenly;
+    text-align: left; 
+}
+.award{
+    
+    float: left;
+    font-family: sans-serif;
+    background-color:  #333333;
+    width: 340px;
+    height: 50px;
+    color: white;
+    padding:30px 35px 40px 35px;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 3px;
+    
+ 
+   
+
+}  
+.symbol
+{
+    float: left;
+    background-color: #00c8c8;
+    width: 340px;
+    height: 50px;
+    color: white;
+    padding:35px;
+    text-align: center;
+    line-height: 45px;
+    margin-left: 3%;
+    letter-spacing: 15px;
+   
+
+}
+
+.space{
+
+    clear: both;
+    height: 0px;
+}
+
+footer{
+    background-color:  #333333;
+   
+    width: 1349px;
+    height: 35px;
+    font-size: 13px;
+    padding-top: 15px;
+    margin: 0px;
+}
+
+.copy{
+    color: white;
+    float: left;
+    margin-left:20%;
+
+}
+.design{
+    color: white;
+    float: left;
+    margin-left:27.5%;
+
+}
+
+ 
+ .dev{
+    color: white;
+    float: left;
+    margin-left: 3%;
+
+}
+
+ 
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

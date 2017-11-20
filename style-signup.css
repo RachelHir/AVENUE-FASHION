@@ -1,0 +1,586 @@
+
+html
+
+{
+    
+    width: 1349px;
+    height: 100%;
+    box-sizing: border-box;
+    
+}
+body
+{
+   
+    margin-left: 0px ;
+    margin-right: 0px;
+    margin-top: 0px; 
+    margin-bottom: 0px;
+    padding: 0px;
+    height: 100%;
+    
+  
+}
+.head{ 
+
+    height:42px;
+}
+.general{
+    position:absolute;
+    background-color:  #333333;
+    width: 1349px;
+    height: 42px;
+    margin-left: 0px ;
+    margin-right: 0px;
+    margin-top: 0px; 
+    margin-bottom:0px;
+    padding:1px 0px 1px 0px;
+ 
+}
+
+.general ul{
+    margin-bottom: 0%;
+}
+ 
+ li {
+     display: inline 
+
+ }   
+
+ .Currency a
+ {
+    font-family:Montserrat;
+    color:  #777777;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: left;
+    text-decoration:none;
+    padding-right:35%;
+    padding-left: 15%;
+
+    } 
+
+.register a
+{
+    font-family: Montserrat;
+    color:  #999999;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: right;
+    text-decoration:none;
+    padding-left: 70px;
+    padding-right: 10px;
+
+}
+.sign a
+{
+    font-family: Montserrat;
+    color:  #00c8c8;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: right;
+    text-decoration:none;
+    padding: 20px;
+}
+ 
+.cart { 
+
+    background-color: #00c8c8;
+    width: 147px;
+    height: 43px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 13px;
+    text-decoration:none;
+    text-align: center;
+    padding: 20px 15px 10px 20px;
+}
+
+.cart a { 
+
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 13px;
+    text-decoration:none;
+    text-align: center;
+    margin: 20px;
+
+}
+
+.upnav { 
+    
+    background-color: #f8f8f8;
+    width: 1349px;
+    height: 100px;
+    margin: 0 auto ;
+    padding-top: 0%;
+}
+
+main section h1 {  
+
+    display: inline-flex;
+    font-family: sans-serif;
+    color: #222222;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 3%;
+    padding-left:20px;
+    width: 150px;
+}
+
+
+.menu{
+
+    width: 600px;
+    float: right; 
+    margin-right: 5%;  
+    
+
+}
+.menu a  {
+    
+    font-family: sans-serif;
+    color:  #575153;
+    font-size: 10px;
+    text-align: left;
+    font-weight: bold;
+    float:left;
+    position: relative; 
+    padding: 0% 3.5% 0% 3%;
+    text-decoration: none;
+    margin-top: 7%;
+
+   
+    
+}
+
+.tabhead:hover {
+
+     color:  #00c8c8;
+ }
+
+ #current{
+
+     color:  #00c8c8;
+ }
+
+
+.tabhead input {
+    position: absolute;
+    margin-top:-10%;
+    margin-left: 30px;
+    width: 100px;
+    height: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    
+
+}
+
+.tabhead button {
+    position:absolute;
+    margin-top: 1%;
+    margin-left:125px;
+    background-color: white;
+    float: right;
+    border:none;
+    background-color: white;
+    
+}
+
+
+
+.manshop{
+
+    
+    position: absolute;
+    float: right;
+    margin: 32% 10% 5% 65%;
+    border: 2px solid  #737373;
+    width: 200px;
+    font-family: sans-serif;
+    color:  #454647;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding:10px 3px 10px 3px;
+    font-weight: bold;
+
+}
+
+
+.man-drop{
+     background-color:  #f8f8f8;
+     width: 0px;
+     height: 0px;
+     line-height: 18px;
+     border:2px ;
+     box-shadow: 8px 15px 24px 0px rgba(0, 0, 0, 0.14); 
+     opacity: 0;
+
+}
+
+.casual-formal{
+
+    display: inline-flex;
+
+}
+
+.casual,.formal{
+
+    font-family:sans-serif;
+    color:  #727272;
+    width: 140px;
+    font-size: 15px;  
+    line-height: 18px; 
+    padding-left:25px; 
+    margin-top: 5%;
+    
+
+}
+
+.casual ul ,.formal ul{
+     padding-left:0px; 
+     
+}
+
+.casual li, .formal li{
+     font-size: 11px;
+     line-height: 20px;
+
+}
+
+.autumn{
+
+    color: white;
+    background-color: black;
+    background-color:  #333333;
+    width: 80%;
+    height: 90px;
+    font-family: sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    padding: 20px 15px 5px 15px; 
+    margin-left:5%;
+}
+
+
+#hope:nth-child(1):hover .man-drop{
+    opacity: 1;
+    height: 320px;
+    width: 350px;
+    position: absolute;
+}
+
+.intro{
+    width: 1349px;
+    height:300px;
+      
+}
+
+.secondsign{
+    height: 700px;
+    
+
+}
+
+.testing{
+    
+    width: 1349px;
+    display: inline-flex;
+    margin: 0 auto;
+
+}
+
+.secondsign h3{
+    
+    font-family: sans-serif;
+    color:  #575153;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: left;
+    
+    }
+
+.signin{
+
+    margin-left: 25%;
+    margin-top: 5%;
+    width: 310px;
+    
+    
+} 
+
+.register{
+   
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 310px;
+   
+} 
+[class*=tosign]{
+
+    width: 300px;
+    height: 20PX;
+    padding: 12px 2px;
+    margin: 12px 0px;
+    border: 1px solid #ccc;
+    background-color:  rgba(51, 51, 51, 0);
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+
+.tosign1{
+    
+    border:1px solid  #bb5465;
+    background-color:  rgba(187, 84, 101, 0.05);
+ 
+}
+.submit-signin{
+
+    border:2px solid  #00c8c8;
+    box-sizing: border-box;
+    background-color:#00c8c8;
+    width: 75px;
+    height: 35px;
+    
+}
+
+.submit-signin:active{
+
+    border:2px solid    #00c8c8;
+    box-sizing: border-box;
+    background-color:   #00c8c8;
+
+}
+.forgot {
+    display: inline-flex;
+    font-family: sans-serif;
+    color:  #00c8c8;
+    font-size: 9px;
+    float: right;
+    line-height: 18px;
+    margin-top: 3%;
+    margin-right: 3%;
+    width: 100px;
+}
+
+.forgot i{
+
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 0%;
+}
+
+.checkbox1{
+    display: inline-flex;
+    color:  #8e8c8c;
+    font-family: sans-serif;
+    font-size: 11px;
+    padding-bottom: 6%;
+    
+}
+
+register+policy{
+
+    display: inline-flex;
+}
+
+.submit-register{
+
+    float: left;
+    font-family: sans-serif;
+    color:  #454647;
+    font-size: 10px;
+    width: 130px;
+    text-align: center;
+    padding: 2% 3%;
+    margin-right: 7%;
+    height: 30px;
+    font-style: bold;   
+   
+}   
+
+.policy{
+    
+    color:  #8e8c8c;
+    font-family: sans-serif;
+    font-size: 10px;
+    text-align: left;
+    
+}
+
+.changeblue{
+    
+    font-family: sans-serif;
+    color:  #00c8c8;
+    font-size: 10px;
+    display: inline-flex;
+    margin-left: 1%;
+   
+}
+
+.changeblue i{
+
+    margin-top: 4%;
+    
+}
+    
+.four{
+    
+    background-color:  #f8f8f8;
+    width: 1349px;
+    height: 350px;
+    
+}
+
+.footermenu {
+    
+    width:60%; 
+    margin-left:20%; 
+    margin-right:20%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    text-align: left; 
+    
+}
+
+.information{
+    
+    margin-top: 0px;
+    margin-right: 25px;
+    width: 14%;
+    
+}
+
+.information ul{
+    padding: 0px;
+    margin-bottom: 50px;
+    
+}
+
+.information li { 
+   
+    font-family: sans-serif;
+    color:  #575153;
+    font-size: 10px;
+    display: inline-block;
+    text-align: left;
+    
+}
+
+h5{
+    
+    font-family: sans-serif;
+    color:  #575153;
+    font-size:10px;
+    display: inline-flex;
+    text-align: left;
+    margin-bottom: 0px; 
+    padding-right: 10px;
+  
+}
+
+.boxfooter{
+
+    background-color:  #f8f8f8;
+    width:60%; 
+    margin-left:20%; 
+    margin-right:20%; 
+    display: inline-flex;
+    justify-content: space-evenly;
+    text-align: left; 
+}
+.award{
+    
+    float: left;
+    font-family: sans-serif;
+    background-color:  #333333;
+    width: 340px;
+    height: 50px;
+    color: white;
+    padding:30px 35px 40px 35px;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 3px;
+    
+ 
+   
+
+}  
+.symbol
+{
+    float: left;
+    background-color: #00c8c8;
+    width: 340px;
+    height: 50px;
+    color: white;
+    padding:35px;
+    text-align: center;
+    line-height: 45px;
+    margin-left: 3%;
+    letter-spacing: 15px;
+   
+
+}
+
+.space{
+
+    clear: both;
+    height: 0px;
+}
+
+footer{
+    background-color:  #333333;
+   
+    width: 1349px;
+    height: 35px;
+    font-size: 13px;
+    padding-top: 15px;
+    margin: 0px;
+}
+
+.copy{
+    color: white;
+    float: left;
+    margin-left:20%;
+
+}
+.design{
+    color: white;
+    float: left;
+    margin-left:27.5%;
+
+}
+
+ 
+ .dev{
+    color: white;
+    float: left;
+    margin-left: 3%;
+
+}
+
+ 
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

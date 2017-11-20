@@ -1,0 +1,864 @@
+
+
+
+html
+
+{
+    
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    
+}
+body
+{
+   
+    margin-left: 0px ;
+    margin-right: 0px;
+    margin-top: 0px; 
+    margin-bottom: 0px;
+    padding: 0px;
+    height: 100%;
+    display: block;
+    overflow: visible;
+  
+}
+
+.head{ 
+
+    height:42px;
+}
+.general{
+    position:absolute;
+    background-color:  #333333;
+    width: 1349px;
+    height: 42px;
+    margin-left: 0px ;
+    margin-right: 0px;
+    margin-top: 0px; 
+    margin-bottom:0px;
+    padding:1px 0px 1px 0px;
+ 
+}
+
+.general ul{
+    margin-bottom: 0%;
+}
+ 
+ li {
+     display: inline 
+
+ }   
+
+ .Currency a
+ {
+    font-family:Montserrat;
+    color:  #777777;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: left;
+    text-decoration:none;
+    padding-right:35%;
+    padding-left: 15%;
+
+    } 
+
+.register a
+{
+    font-family: Montserrat;
+    color:  #999999;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: right;
+    text-decoration:none;
+    padding-left: 70px;
+    padding-right: 10px;
+
+}
+.sign a
+{
+    font-family: Montserrat;
+    color:  #999999;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: right;
+    text-decoration:none;
+    padding: 20px;
+}
+ 
+.cart { 
+
+    background-color: #00c8c8;
+    width: 147px;
+    height: 43px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 13px;
+    text-decoration:none;
+    text-align: center;
+    padding: 20px 15px 10px 20px;
+}
+
+.cart a { 
+
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 13px;
+    text-decoration:none;
+    text-align: center;
+    margin: 20px;
+
+}
+
+.upnav { 
+    
+    background-color: #f8f8f8;
+    width: 1349px;
+    height: 100px;
+    margin: 0 auto ;
+    padding-top: 0%;
+}
+
+main section h1 {  
+
+    display: inline-flex;
+    font-family: sans-serif;
+    color: #222222;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 3%;
+    padding-left:20px;
+    width: 150px;
+}
+
+
+.menu{
+
+    width: 600px;
+    float: right; 
+    margin-right: 5%;  
+    
+
+}
+.menu a  {
+    
+    font-family: sans-serif;
+    color:  #575153;
+    font-size: 10px;
+    text-align: left;
+    font-weight: bold;
+    float:left;
+    position: relative; 
+    padding: 0% 3.5% 0% 3%;
+    text-decoration: none;
+    margin-top: 7%;
+
+   
+    
+}
+
+.tabhead:hover {
+
+     color:  #00c8c8;
+ }
+
+ #current{
+
+     color:  #00c8c8;
+ }
+
+
+.tabhead input {
+    position: absolute;
+    margin-top:-10%;
+    margin-left: 30px;
+    width: 100px;
+    height: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    
+
+}
+
+.tabhead button {
+    position:absolute;
+    margin-top: 1%;
+    margin-left:125px;
+    background-color: white;
+    float: right;
+    border:none;
+    background-color: white;
+    
+}
+
+
+
+.manshop{
+
+    
+    position: absolute;
+    float: right;
+    margin: 32% 10% 5% 65%;
+    border: 2px solid  #737373;
+    width: 200px;
+    font-family: sans-serif;
+    color:  #454647;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding:10px 3px 10px 3px;
+    font-weight: bold;
+
+}
+
+
+.man-drop{
+     background-color:  #f8f8f8;
+     width: 0px;
+     height: 0px;
+     line-height: 18px;
+     border:2px ;
+     box-shadow: 8px 15px 24px 0px rgba(0, 0, 0, 0.14); 
+     opacity: 0;
+
+}
+
+.casual-formal{
+
+    display: inline-flex;
+
+}
+
+.casual,.formal{
+
+    font-family:sans-serif;
+    color:  #727272;
+    width: 140px;
+    font-size: 15px;  
+    line-height: 18px; 
+    padding-left:25px; 
+    margin-top: 5%;
+    
+
+}
+
+.casual ul ,.formal ul{
+     padding-left:0px; 
+     
+}
+
+.casual li, .formal li{
+     font-size: 11px;
+     line-height: 20px;
+
+}
+
+.autumn{
+
+    color: white;
+    background-color: black;
+    background-color:  #333333;
+    width: 80%;
+    height: 90px;
+    font-family: sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    padding: 20px 15px 5px 15px; 
+    margin-left:5%;
+}
+
+
+#hope:nth-child(1):hover .man-drop{
+    opacity: 1;
+    height: 320px;
+    width: 350px;
+    position: absolute;
+}
+
+
+.intro{
+    width: 1349px;
+    height:300px;
+    
+}
+
+
+#middlenav-lookbook{
+   
+    width: 50%;
+    text-decoration: none;
+    padding-right: 15%; 
+    height: 50px; 
+    margin-top: 3%; 
+    
+  
+}
+#middlenav-lookbook ul  {
+    
+    font-family: sans-serif;
+    color:  #575153;
+    font-size: 10px;
+    text-align: left;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline;
+    padding: 8%;
+   
+    
+}
+
+#middlenav-lookbook li{
+    padding: 2%;
+
+}
+
+#middlenav-lookbook li:hover {
+    
+     color:  #00c8c8;
+   
+}
+
+#middlenav-lookbook li a:visited {
+    color: #00c8c8;
+
+}
+
+
+#middlenav-lookbook li:nth-child(1) {
+
+     color: #00c8c8;
+}
+
+
+.picture-look{
+    float: center;
+    width: 1349px;
+    height: 950px;
+    margin: 0 auto;
+}
+
+.pictures{
+
+   
+    margin-left: 4%;
+    margin-right: 2%;
+    
+      
+}
+
+.pictures img{
+
+    margin:0.75%;
+    display:inline-flex;
+    
+    
+}
+
+.linespace{
+    clear: both;
+    background-color:  #eeeeee;
+    width: 1190px;
+    height: 2px;
+    margin: 14% 5% 0% 5%;
+}
+.lineclear{
+    clear: both;
+    
+}
+.look-hover img , .look-white img, .look-black-men img, .look-blue img, .look-red img, .look-black-women img{
+    width: 283px;
+    height: 300px;
+    float: left;
+
+    
+}
+
+.look-ave img{
+
+    width: 283px;
+    height: 300px;
+    float: left;
+    margin-left: 1.65%;
+    
+}
+
+
+
+.look-jeans img{
+    width: 580px;
+    height: 300px;
+    float: left;
+    position: absolute ;
+}
+
+
+.look-jeans{
+    position: relative;
+   
+}
+.janes{
+    float: left;
+    position: relative;
+    margin: 3% 2% 0% 3%;
+    width: 400px;
+
+}
+
+.janes-title{
+    
+    position: relative;
+    font-family: sans-serif;
+    color:  #575153;
+    font-size: 32px;
+    font-weight: 100;
+    line-height: 20px;
+    text-align: left;
+    
+    
+}
+
+.janes-bold{
+    float: left;
+    position: relative;
+    font-family: sans-serif;
+    color:  #575153;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: left;
+    margin-right: 2%;
+
+
+}
+.look-jeans h4{
+   
+    position: relative;
+    color:  #727272;
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+
+    
+}
+
+.look-jeans P{
+
+    
+    position:relative;
+    width: 180px;
+    color:  #8e8c8c;
+    font-family: sans-serif;
+    font-size: 10px;
+    line-height: 14px;
+    text-align: left;
+
+
+}
+
+
+.janes button{
+    position: relative;
+    float: left;
+    font-family:sans-serif;
+    color:  #575153;
+    font-size: 11px;
+    background-color:  #eeeeee;
+    text-align: center;
+    padding:10px 17px;
+    border: 0.5px ridge  #575153;
+    margin-top: 2%;
+    
+}
+
+.look-red-women img{
+    width: 890px;
+    height: 300px;
+    position: absolute;
+    float: left;
+   
+    
+}
+
+
+.look-red-women{
+    position: relative;
+     width: 900px;
+   
+}
+.red-women{
+    float: left;
+    position: relative;
+    margin: 3% 2% 0% 3%;
+     width: 850px;
+   
+
+}
+
+.red-women-title{
+    
+    position: relative;
+    font-family: sans-serif;
+    color:  #575153;
+    font-size: 32px;
+    font-weight: 100;
+    line-height: 20px;
+    text-align: left;
+    
+    
+    
+}
+
+.red-women-bold{
+    float: left;
+    position: relative;
+    font-family: sans-serif;
+    color:  #575153;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: left;
+    margin-right: 2%;
+
+
+}
+.look-red-women h4{
+   
+    position: relative;
+    color:  #727272;
+    font-family: sans-serif;
+    font-size: 9px;
+    line-height: 20px;
+    text-align: left;
+
+    
+}
+
+.look-red-women P{
+
+    
+    position:relative;
+    width: 250px;
+    color:  #8e8c8c;
+    font-family: sans-serif;
+    font-size: 10px;
+    line-height: 14px;
+    text-align: left;
+
+
+}
+
+
+.red-women button{
+    position: relative;
+    float: left;
+    font-family:sans-serif;
+    color:  #575153;
+    font-size: 11px;
+    background-color:  #eeeeee;
+    text-align: center;
+    padding:10px 17px;
+    border: 0.5px ridge  #575153;
+    margin-top: 2%;
+    
+}
+
+.red-women-title-big{
+
+    
+    float: right;
+    font-family: sans-serif;
+    color:  #00c8c8;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: right;
+    margin-top: 15%;
+    margin-right: -11%;
+    width: 500px;
+    
+}
+
+.red-women-bold-big{
+    
+    float: right;
+    position: relative;
+    font-family: sans-serif;
+    color:  #00c8c8;
+    font-size: 150px;
+    font-weight: bold;
+    line-height: 54px;
+    text-align: right;
+    margin-right: 3%;
+    margin-top: 11%;
+    width: 250px;
+
+}
+
+.three-lookbook{
+
+    height: 325px;
+    background-color: white;
+    margin-bottom: 7%;
+  
+}
+
+
+.allgander{
+  
+    
+    width: 1349px;
+    height: 300px;
+    margin-top:3%;
+    display:inline-flex;
+    
+}
+.gander{
+    
+    
+    position: relative;
+    width: 425px;
+    padding-right: 15px;
+    
+    height: 300px;
+    background-color:  #f8f8f8;
+    line-height: 30px;
+     
+}
+
+.gander:nth-child(2){
+
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+.gander h3{
+    
+    position: relative;
+    float: right;
+    font-family:sans-serif;
+    color:  #575153;
+    font-size: 25px;
+    text-align: right;
+    margin-bottom: 1%;
+    letter-spacing: 4px;
+    }
+    
+.lookbook{
+    position: relative;
+    float: right;
+    font-family:sans-serif;
+    color:  #575153;
+    font-size: 25px;
+    text-align: right;
+    letter-spacing: 4px;
+    margin: 0% 0% 2% 58%;
+    
+   
+        
+}
+.gander button{
+    position: relative;
+    float: right;
+    font-family:sans-serif;
+    color:  #575153;
+    font-size: 11px;
+    background-color:  #eeeeee;
+    text-align: center;
+    padding:10px 17px;
+    border: 0.5px ridge  #575153;
+    margin: 5% 0% 0% 40%;
+}
+
+.gander img{
+
+    width: 430px;
+    height: 325px;
+    position:absolute;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.gander:hover button{
+    
+    background-color: #00c8c8;
+    color: white;
+    border: 2px solid #00c8c8;
+    padding:10px 17px;
+    }
+    
+.store-exp{
+    position: relative;
+    float: right;
+    font-family:sans-serif;
+    color:  #727272;
+    font-size: 11px;
+    line-height: 14px;
+    text-align: right;
+    width: 200px;
+    
+}
+
+
+
+.four{
+    
+    background-color:  #f8f8f8;
+     width: 1349px;
+    height: 350px;
+    
+    
+}
+
+.footermenu {
+    
+    width:60%; 
+    margin-left:20%; 
+    margin-right:20%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    text-align: left; 
+    
+}
+
+.information{
+    
+    margin-top: 0px;
+    margin-right: 25px;
+    width: 14%;
+    
+}
+
+.information ul{
+    padding: 0px;
+    margin-bottom: 50px;
+    
+}
+
+
+.information li { 
+   
+    font-family: sans-serif;
+    color:  #575153;
+    font-size: 10px;
+    display: inline-block;
+    text-align: left;
+    
+}
+
+h5{
+    
+    font-family: sans-serif;
+    color:  #575153;
+    font-size:10px;
+    display: inline-flex;
+    text-align: left;
+    margin-bottom: 0px; 
+    padding-right: 10px;
+  
+}
+
+.boxfooter{
+
+    background-color:  #f8f8f8;
+    width:60%; 
+    margin-left:20%; 
+    margin-right:20%; 
+    display: inline-flex;
+    justify-content: space-evenly;
+    text-align: left; 
+}
+.award{
+    
+    float: left;
+    font-family: sans-serif;
+    background-color:  #333333;
+    width: 340px;
+    height: 50px;
+    color: white;
+    padding:30px 35px 40px 35px;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 3px;
+    
+ 
+   
+
+}  
+.symbol
+{
+    float: left;
+    background-color: #00c8c8;
+    width: 340px;
+    height: 50px;
+    color: white;
+    padding:35px;
+    text-align: center;
+    line-height: 45px;
+    margin-left: 3%;
+    letter-spacing: 15px;
+   
+
+}
+
+.space{
+
+    clear: both;
+    height: 0px;
+}
+
+footer{
+    background-color:  #333333;
+   
+     width: 1349px;
+    height: 35px;
+    font-size: 13px;
+    padding-top: 15px;
+    margin: 0px;
+}
+
+.copy{
+    color: white;
+    float: left;
+    margin-left:20%;
+
+}
+.design{
+    color: white;
+    float: left;
+    margin-left:27.5%;
+
+}
+
+ 
+ .dev{
+    color: white;
+    float: left;
+    margin-left: 3%;
+
+}
+
+ 
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
